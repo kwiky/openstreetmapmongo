@@ -1,5 +1,5 @@
 {
-  "name": "openstreetmap-mongo",
+  "name": "openstreetmapmongo",
   "description": "Store Openstreetmap data in Mongo DB",
   "version": "0.0.2",
   "contributors": [
