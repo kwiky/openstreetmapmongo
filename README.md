@@ -1,4 +1,4 @@
-# Openstreetmap-Mongo
+# OpenstreetmapMongo
 
 ## Credits
 * Stefan Wehner <stefan@navimont.com>
