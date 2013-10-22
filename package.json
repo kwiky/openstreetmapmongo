@@ -1,0 +1,37 @@
+{
+  "name": "openstreetmap-mongo",
+  "description": "Store Openstreetmap data in Mongo DB",
+  "version": "0.0.2",
+  "contributors": [
+    {
+      "name": "Stefan Wehner",
+      "email": "stefan@navimont.com"
+    },
+    {
+      "name": "Steve Grosbois",
+      "email": "steve.grosbois@gmail.com"
+    },
+  ],
+  "keywords": [
+    "openstreetmap",
+    "osm",
+    "gis",
+    "mongodb"
+  ],
+  "main": "osm-mongo",
+  "scripts": {
+    "start": "node ./lib/osm-mongo.js",
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kwiky/openstreetmap-mongo"
+  },
+  "dependencies": {
+    "mongodb": ">=0.9.6-7",
+    "sax": ">=0.4.0",
+    "nodeunit": ">=0.7.0",
+    "sylvester": ">=0.0.21"
+  },
+  "readmeFilename": "README.md"
+}
